@@ -27,7 +27,7 @@ Write-Host "📝 Updating settings.json..." -ForegroundColor Yellow
 
 $StatusLineConfig = @{
     type = "command"
-    command = "python $ScriptPath"
+    command = "py $ScriptPath"
 }
 
 if (Test-Path $SettingsFile) {
